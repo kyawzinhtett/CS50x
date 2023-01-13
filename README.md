@@ -3,3 +3,7 @@
 ### Week 0
 
 I create a chrome dinosaur game aka no internet game for the week 0 project.
+
+### Week 1
+
+Lab 1: Population Growth
