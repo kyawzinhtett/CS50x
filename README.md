@@ -19,3 +19,11 @@ Problem Set
 - hello
 - mario-less
 - cash
+
+### Week 2
+
+Practice Problems
+
+- Hours
+
+Lab 2: Scrabble
