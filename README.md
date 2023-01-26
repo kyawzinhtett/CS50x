@@ -14,7 +14,7 @@ Practice Problems
 - Half
 - Prime
 
-Problem Set
+Problem Sets
 
 - hello
 - mario-less
@@ -27,3 +27,8 @@ Practice Problems
 - Hours
 
 Lab 2: Scrabble
+
+Problem Sets
+
+- Readability
+- Caesar
