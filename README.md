@@ -18,6 +18,7 @@ Problem Sets
 
 - hello
 - mario-less
+- mario-more
 - cash
 
 ### Week 2
@@ -32,3 +33,18 @@ Problem Sets
 
 - Readability
 - Caesar
+
+### Week 3
+
+Practice Problems
+
+- Recursive Atoi
+- Average Temperatures
+- Max
+- Snackbar
+
+Problem Sets
+
+- Plurality
+- Runoff
+- Tideman

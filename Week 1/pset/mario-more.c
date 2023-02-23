@@ -24,7 +24,16 @@ int main(void)
         {
             printf("#");
         }
-        
+
+        // space
+        printf("  ");
+
+        // right-align pyramid column
+        for (int k = 0; k < i + 1; k++)
+        {
+            printf("#");
+        }
+
         printf("\n");
     }
 }
