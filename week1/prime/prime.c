@@ -9,13 +9,15 @@ int main(void)
     do
     {
         min = get_int("Minimum: ");
-    } while (min < 1);
+    }
+    while (min < 1);
 
     int max;
     do
     {
         max = get_int("Maximum: ");
-    } while (min >= max);
+    }
+    while (min >= max);
 
     for (int i = min; i <= max; i++)
     {

@@ -59,7 +59,7 @@ int main(void)
     }
 }
 
-// Sort cities by temperature in descending order
+// TODO: Sort cities by temperature in descending order
 void sort_cities(void)
 {
     int n = NUM_CITIES;

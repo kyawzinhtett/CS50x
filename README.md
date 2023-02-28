@@ -6,13 +6,15 @@ I create a chrome dinosaur game aka no internet game for the week 0 project.
 
 ### Week 1
 
-Lab 1: Population Growth
-
 Practice Problems
 
 - Debug
 - Half
 - Prime
+
+Lab 1
+
+- Population Growth
 
 Problem Sets
 
@@ -27,7 +29,9 @@ Practice Problems
 
 - Hours
 
-Lab 2: Scrabble
+Lab 2
+
+- Scrabble
 
 Problem Sets
 
@@ -43,8 +47,29 @@ Practice Problems
 - Max
 - Snackbar
 
+Lab 3
+
+- Sort
+
 Problem Sets
 
 - Plurality
 - Runoff
 - Tideman
+
+### Week 4
+
+Practice Problems
+
+- Bottom Up
+- License
+
+Lab 4
+
+- Smiley
+- Volume
+
+Problem Sets
+
+- Filter less
+- Recover
