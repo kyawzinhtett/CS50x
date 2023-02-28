@@ -12,7 +12,7 @@ Lab 1
 
 Problem Sets
 
-- hello
-- mario-less
-- mario-more
-- cash
+- Hello
+- Mario-less
+- Mario-more
+- Cash
