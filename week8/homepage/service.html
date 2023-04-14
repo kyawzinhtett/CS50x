@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>My Webpage</title>
+  </head>
+  <body class="bg-light">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-light bg-light fixed-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold fs-4" href="index.html">
+          <h2>KZH</h2>
+        </a>
+
+        <!-- Show on large screen -->
+        <div class="d-none d-md-block">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Show on Small Screen -->
+        <div class="dropdown d-block d-md-none">
+          <button
+            class="btn btn-info px-3"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a class="dropdown-item text-muted" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="about.html">About</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="service.html"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="work.html">Work</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Service Section Start -->
+    <section class="services py-5" id="services">
+      <div class="container-lg py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5 text-info">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="bx bx-code-alt"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="bx bx-bulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-info fs-2">
+                <i class="bx bx-image"></i>
+              </div>
+              <h3 class="fs-5 py-2">Photoshop</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2023 KZH</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>

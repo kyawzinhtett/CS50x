@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>My Webpage</title>
+  </head>
+  <body class="bg-light">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-light bg-light fixed-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold fs-4" href="index.html">
+          <h2>KZH</h2>
+        </a>
+
+        <!-- Show on large screen -->
+        <div class="d-none d-md-block">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Show on Small Screen -->
+        <div class="dropdown d-block d-md-none">
+          <button
+            class="btn btn-info px-3"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu"></i>
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a class="dropdown-item text-muted" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="about.html">About</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="service.html"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="work.html">Work</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-muted" href="contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- About Section Start -->
+    <section class="about py-5" id="about">
+      <div class="container-lg py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5 text-info">About Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-desc">
+              <h3 class="fs-4 mb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                voluptas, animi sunt itaque ullam culpa libero nam voluptates.
+                Quibusdam, distinctio aut. Dolor laboriosam ullam rem!
+              </p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">10</h4>
+                  <p>Projects</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">9</h4>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">8</h4>
+                  <p>Positive Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn btn-info px-3 me-5">
+                  Download CV
+                  <i class="bx bxs-download"></i>
+                </a>
+                <!-- Social Links -->
+                <div class="social-links">
+                  <a href="#" class="me-2"
+                    ><i class="bx bxl-github text-muted fs-5"></i
+                  ></a>
+                  <a href="#" class="me-2"
+                    ><i class="bx bxl-linkedin text-muted fs-5"></i
+                  ></a>
+                  <a href="#" class="me-2"
+                    ><i class="bx bxl-twitter text-muted fs-5"></i
+                  ></a>
+                  <a href="#" class="me-2"
+                    ><i class="bx bxl-instagram text-muted fs-5"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">HTML</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-info" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-info" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">JavaScript</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-info" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">MySQL</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-info" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2023 KZH</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
