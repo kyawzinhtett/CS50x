@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Symbol</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price</th>
+                <th scope="col">Status</th>
+                <th scope="col">Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for h in history %}
+                <tr>
+                    <td>{{ h.name }}</td>
+                    <td>{{ h.symbol }}</td>
+                    <td>{{ h.shares }}</td>
+                    <td>{{ h.price | usd }}</td>
+                    <td>{{ h.status }}</td>
+                    <td>{{ h.timestamp }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
