@@ -9,8 +9,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://cs50.harvard.edu/x/2023/" target=”_blank”>Course Link</a> |
-  <a href="https://github.com/kyawzinhtett/portalpal" target=”_blank”>Final Project</a>
+  <a href="https://cs50.harvard.edu/x/2023/" target="_blank">Course Link</a> |
+  <a href="https://github.com/kyawzinhtett/portalpal" target="_blank">Final Project</a>
 </p>
 
 ## Works
