@@ -7,4 +7,4 @@ AND movie_id IN
         FROM stars, people
         WHERE stars.person_id = people.id
         AND name = "Kevin Bacon"
-           AND birth = 1958);
+        AND birth = 1958);
