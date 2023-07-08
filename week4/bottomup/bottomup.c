@@ -1,5 +1,3 @@
-// Copies a BMP file
-
 #include <stdio.h>
 #include <stdlib.h>
 
