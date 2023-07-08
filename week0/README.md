@@ -1,3 +1,3 @@
 ## Week 0
 
-Dinosaur game.
+Dinosaur game
