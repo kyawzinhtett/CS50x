@@ -1,20 +1,3 @@
-// Practice using structs
-// Practice writing a linear search function
-
-/**
- * Beach Burger Shack has the following 10 items on their menu
- * Burger: $9.5
- * Vegan Burger: $11
- * Hot Dog: $5
- * Cheese Dog: $7
- * Fries: $5
- * Cheese Fries: $6
- * Cold Pressed Juice: $7
- * Cold Brew: $3
- * Water: $2
- * Soda: $2
-*/
-
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>

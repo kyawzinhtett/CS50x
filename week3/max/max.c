@@ -1,5 +1,3 @@
-// Practice writing a function to find a max value
-
 #include <cs50.h>
 #include <stdio.h>
 

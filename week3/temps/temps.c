@@ -1,6 +1,3 @@
-// Practice working with structs
-// Practice applying sorting algorithms
-
 #include <cs50.h>
 #include <stdio.h>
 
